@@ -3824,4 +3824,13 @@
   .contact-image{
     border-radius: 20px;
     margin-top:20px;
+    width:600px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .contact-image{
+      border-radius: 20px;
+      margin-top:20px;
+      width:250px;
+    }
   }
